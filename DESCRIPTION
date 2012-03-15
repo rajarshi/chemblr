@@ -1,0 +1,13 @@
+Package: chemblr
+Version: 0.1
+Date: 2012-03-15
+Title: chemblr - R Interface to ChEMBL
+Author: Rajarshi Guha <rajarshi.guha@gmail.com>
+Maintainer: Rajarshi Guha <rajarshi.guha@gmail.com>
+Depends: R (>= 2.11.0),  png, iterators, RCurl, XML
+Suggests: xtable, RUnit
+License: LGPL 
+LazyLoad: yes
+Description: This package interfaces to the ChEMBL SAR database using their
+REST API. Much of the data retrieved is best used in conjunction with the
+rcdk package that provides cheminformatics capabilities within R
