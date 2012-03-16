@@ -4,7 +4,7 @@ Date: 2012-03-15
 Title: chemblr - R Interface to ChEMBL
 Author: Rajarshi Guha <rajarshi.guha@gmail.com>
 Maintainer: Rajarshi Guha <rajarshi.guha@gmail.com>
-Depends: R (>= 2.11.0),  png, iterators, RCurl, XML
+Depends: R (>= 2.11.0),  png, iterators, RCurl, RJSONIO
 Suggests: xtable, RUnit
 License: LGPL 
 LazyLoad: yes
