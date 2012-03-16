@@ -43,5 +43,9 @@ manually call this function for each identifier.
 
 \code{get.compound.list} returns a list of objects, where each object is a list with the same fields as noted above.
 }
+\seealso{
+\code{\link{get.assay}},
+\code{\link{get.activity}}
+}
 \keyword{programming}
 \author{Rajarshi Guha (\email{rajarshi.guha@gmail.com})}
