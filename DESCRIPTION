@@ -9,5 +9,5 @@ Suggests: xtable, RUnit
 License: LGPL 
 LazyLoad: yes
 Description: This package interfaces to the ChEMBL SAR database using their
-REST API. Much of the data retrieved is best used in conjunction with the
-rcdk package that provides cheminformatics capabilities within R
+ REST API. Much of the data retrieved is best used in conjunction with the
+ rcdk package that provides cheminformatics capabilities within R

@@ -1,5 +1,5 @@
 get.chembl.status <- function() {
-  url <- 'http://www.ebi.ac.uk/chemblws/status/'
+  url <- 'https://www.ebi.ac.uk/chemblws/status/'
   d <- getURL(url)
-  print(d)
+  return(d == 'UP')
 }
