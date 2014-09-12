@@ -1,6 +1,6 @@
 Package: chemblr
-Version: 0.1
-Date: 2012-03-15
+Version: 0.2
+Date: 2014-09-12
 Title: chemblr - R Interface to ChEMBL
 Author: Rajarshi Guha <rajarshi.guha@gmail.com>
 Maintainer: Rajarshi Guha <rajarshi.guha@gmail.com>
