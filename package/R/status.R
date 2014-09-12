@@ -1,5 +1,5 @@
 get.chembl.status <- function() {
-  url <- 'https://www.ebi.ac.uk/chemblws/status/'
-  d <- getURL(url)
-  return(d == 'UP')
+  url <- 'https://www.ebi.ac.uk/chemblws/status.json'
+  d <- fromJSON(getURL(url))
+  return(d$service[1] == 'UP')
 }
