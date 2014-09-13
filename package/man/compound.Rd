@@ -13,11 +13,11 @@ or by similarity.
 Note that similarity based queries seem to be very slow and in many cases time out.
 }
 \usage{
-get.compound(id, type='chemblid')
+get.compounds(ids, type='chemblid')
 get.compound.list(id, type='cansmi')
 }
 \arguments{
-\item{id}{A string representing the ChEMBL ID or a standard InChI key of the molecule to be depicted}
+\item{id}{A character vector representing the ChEMBL ID or a standard InChI key of the molecule to be depicted}
 \item{type}{For \code{get.compounds}, one of \code{chemblid} or \code{stdinchi} to indicate the nature 
 of the molecule id. For the case of \code{get.compound.list} valid types are \code{cansmi}, \code{substructure} and
 \code{similarity}. Partial matching is supported}
