@@ -2,3 +2,12 @@ This R package wraps the [REST API](https://www.ebi.ac.uk/chembldb/index.php/ws)
 
 The R package requires the RCurl, RJSONIO and png packages to be installed. Since the appropriate methods return SMILES strings (and some also accept them as input), use of the [rcdk](http://cran.r-project.org/web/packages/rcdk/index.html) package can be useful, to support cheminformatics directly in the R environment
 
+
+## Installation
+
+To get the latest development version from github:
+
+```R
+# install.packages('devtools')
+devtools::install_github('rajarshi/chemblr/package')
+```
